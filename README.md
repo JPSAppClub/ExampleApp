@@ -10,6 +10,8 @@ The contents of this project might look confusing at first, with no Java file in
 - **ColorCalculator.java** (same place)
 - **activity_calculate.xml** (found at **ExampleApp/app/src/main/res/layout/**)
 
-<p>Each section of the code, and the concepts they embody, are explained in the wiki. Think of it as a textbook of sorts, except with, well, only three pages. Three very useful pages, though.</p>
+Each section of the code, and the concepts they embody, are explained in the wiki. Think of it as a textbook of sorts, except with, well, only three pages. Three very useful pages, though.
+
+You can see this app in action here: https://youtu.be/uGAr68fsDmw
 
 *Created by Michelle Ran for the JPS App Club, the app development division of CyberHawks.*
