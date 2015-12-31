@@ -1,4 +1,4 @@
-# JPS App Club: Color "Calculator"
+# JPS App Club: "Color Calculator"
 This is an example app that demonstrates basic Android app development concepts:
   - The MVC model
   - User interface
