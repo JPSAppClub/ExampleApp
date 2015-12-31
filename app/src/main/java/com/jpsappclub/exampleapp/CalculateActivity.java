@@ -90,17 +90,19 @@ public class CalculateActivity extends AppCompatActivity {
         findViewById(R.id.addButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Color result = ColorCalculator.addColors(selectedColors);
-                resultView.setBackgroundColor(
-                    android.graphics.Color.rgb(result.getRed(), result.getGreen(), result.getBlue())
-                );
-                selectedColors.clear();
-                redSelected = false;
-                greenSelected = false;
-                blueSelected = false;
-                yellowSelected = false;
-                cyanSelected = false;
-                pinkSelected = false;
+                if (selectedColors.size() > 0) {
+                    final Color result = ColorCalculator.addColors(selectedColors);
+                    resultView.setBackgroundColor(
+                        android.graphics.Color.rgb(result.getRed(), result.getGreen(), result.getBlue())
+                    );
+                    selectedColors.clear();
+                    redSelected = false;
+                    greenSelected = false;
+                    blueSelected = false;
+                    yellowSelected = false;
+                    cyanSelected = false;
+                    pinkSelected = false;
+                }
             }
         });
     }
