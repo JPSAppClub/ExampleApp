@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CalculateActivity">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/redView"
+        android:background="#ff0000"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/addButton"
+        android:layout_toStartOf="@+id/addButton"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/greenView"
+        android:background="#2bff00"
+        android:layout_alignBottom="@+id/redView"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/blueView"
+        android:background="#0000ff"
+        android:layout_alignTop="@+id/greenView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a couple colors and click the add button!"
+        android:id="@+id/promptLabelView"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/yellowView"
+        android:background="#ffff00"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/redView"
+        android:layout_alignStart="@+id/redView"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/pinkView"
+        android:background="#ff00ff"
+        android:layout_alignTop="@+id/yellowView"
+        android:layout_alignLeft="@+id/blueView"
+        android:layout_alignStart="@+id/blueView"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/cyanView"
+        android:background="#00ffff"
+        android:layout_alignBottom="@+id/yellowView"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/addButton"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/cyanView"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here&apos;s the result:"
+        android:id="@+id/resultLabelView"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/addButton"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="75dp"
+        android:id="@+id/resultView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"/>
+</RelativeLayout>
