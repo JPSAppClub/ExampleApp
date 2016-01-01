@@ -14,4 +14,4 @@ Each section of the code, and the concepts they embody, are explained in the wik
 
 You can see this app in action here: https://youtu.be/uGAr68fsDmw
 
-*Created by Michelle Ran for the JPS App Club, the app development division of CyberHawks.*
+*Created by Michelle Ran for the JPS App Club, the app development division of CyberHawks. Contact us at jpsappclub@gmail.com if you have any questions, comments, or suggestions!*
