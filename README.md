@@ -5,7 +5,7 @@ This is an example app that demonstrates basic Android app development concepts:
   - Handling user interaction
 
 The contents of this project might look confusing at first, with no Java file in sight. But don't worry, they're there, just tucked away in a bunch of folders. There are only four files you really need to care about:
-- **CalculateActivity.java** (found at **ExampleApp/src/main/java/com/jpsappclub/exampleapp/**)
+- **CalculateActivity.java** (found at **ExampleApp/app/src/main/java/com/jpsappclub/exampleapp/**)
 - **Color.java** (same place)
 - **ColorCalculator.java** (same place)
 - **activity_calculate.xml** (found at **ExampleApp/app/src/main/res/layout/**)
